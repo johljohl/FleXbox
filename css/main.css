@@ -1,0 +1,83 @@
+* {
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 800px;
+  background-color: darkgrey;
+}
+.container {
+  display: flex;
+}
+.container > div {
+  border: 3px solid black;
+}
+.logoBox {
+  height: 100px;
+  width: 200px;
+  background-color: aliceblue;
+}
+.searchBox {
+  height: 100px;
+  width: 200px;
+  flex-grow: 2;
+  background-color: white;
+}
+.searchBox i {
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 35px;
+  
+}
+input {
+  border: 1px;
+}
+
+.iconBox {
+  height: 100px;
+  width: 200px;
+  background-color: aliceblue;
+}
+.iconBox i {
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+li {
+  display: inline-flex;
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.textBox {
+  height: 250px;
+  flex-grow: 2;
+}
+.imageBox {
+  height: 250px;
+}
+.imageBox img {
+  border: 5px solid grey;
+  height: 240px;
+  background-color: aliceblue;
+}
+h1 {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  margin-top: 1px;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  width: 120px;
+  box-shadow: 3px 4px black;
+}
